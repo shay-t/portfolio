@@ -1,0 +1,181 @@
+body{
+    overflow-x: hidden;
+}
+/* css navigation bar*/
+.navbar{
+    overflow: hidden;
+    background: rgba(255,198,194, 0.6)!important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+h5{
+    text-transform: lowercase;
+    color: #64A7FD;
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+}
+h5:hover{
+    text-shadow:2px 2px #F3E908;
+}
+#logo{
+    text-transform: uppercase;
+    color:#963484;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top:.8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link:hover{
+    COLOR:#963484;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+}
+span{
+    color:#963484;
+}
+/* css background image & its ddescription*/
+.haut{
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    margin-left: 25px;
+
+}
+.haut :hover{
+    text-shadow: 0 0 5px #963484, 0 0 10px  #963484,  0 0 20px #008DFE, 0 0 30px #008DFE, 0 0 40px #008DFE, 0 0 55px #008DFE;
+    color: whitesmoke;
+}
+.haut>p{
+    font-size: x-large;
+}
+/* description des sections*/
+.section_title{
+    font-size: 55px;
+}
+hr{
+    width: 20%;
+    background-color:#64A7FD;
+    height:1.5px;
+}
+.lead{
+    font-weight:bold!important;
+}
+/*about me section*/
+.my_photo{
+    border-radius:60% ;
+    text-align:center;
+}
+/*small*/
+@media (min-width: 576px) {
+    .my_photo{
+      width:25%;
+    }
+  }
+/*meduim*/
+@media (min-width: 768px) {
+    .my_photo{
+        width:35%;
+        margin-left: 150px;
+      }
+  }
+/*large*/ 
+@media (min-width: 992px) {
+    .my_photo {
+        width:30%;
+        margin-left: 280px;
+      }
+    .read_more_blog{
+        margin-top: 70%;
+    }
+  }
+/* technical skills*/
+ul{ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+}
+li{ display: inline-block;
+    text-decoration: none;
+}
+/* Porfolio */
+.project{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+button{
+    width:33%;
+}
+/* Blog */
+.mgbot{
+    margin-bottom: 5%;
+}
+
+/* contact */
+#contact{
+    background-color:#FFEBFA;
+}
+h6{
+    display: inline;
+    margin-left: 3px;
+    color:#64A7FD;;
+}
+.fas{
+   color: #963484;
+}
+.contact_icon{
+    font-size: 15px!important;
+}
+.contenu_contact{
+    text-align: center;
+}
+.logo_contact{
+    margin-top: 10%;
+    text-align: center;
+}
+.text_follow{
+    font-size: 20px;
+    text-align: center;
+    color:#64A7FD;
+    font-weight: bold;
+}
+.fab{
+    font-size: 36px!important;
+}
+/*footer*/
+footer{
+    background-color: #64A7FD;
+}
+/* icones css javascript bootstrap */
+.fab{
+    font-size: 60px;
+}
+
+/* les images du portfolio */
+.project_image{
+     height:200px;
+     width: 250px;
+     border: 2px solid #963484;
+}
+.titre_folio{
+    font-family:'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-shadow: none;
+}
+.content_image_portfolio{
+}
+.image_interne{
+    float: right;
+}
+.titre_modal{
+    font-family: 'Anton', sans-serif;
+    text-transform: capitalize;
+    color: #963484 ;
+}

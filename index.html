@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Shay </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <h5><span id="logo">S</span>hay</h5>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about_me">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact_me">Contact me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--IMAGE ARRIERE PLAN-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/bg.jpg" class="d-block w-100" height="700px">
+            </div>
+        </div>
+        <!--Responsive carousel caption-->
+        <div class="carousel-caption d-md-block haut">
+            <h1>
+                < Created TO Create />
+            </h1>
+            <p>Web developer with a passion of learning</p>
+        </div>
+    </div>
+    <!--About me-->
+    <div id="about_me">
+        <!--description de la section-->
+        <div class="container">
+            <div class="row welcome text-center">
+                <div class="col-sm-12">
+                    <br>
+                    <h1 class="section_title"> About <span> me </span></h1>
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <p class="lead"> Hi, I'm shayma a software engineering student </p> <br>
+                </div>
+            </div>
+        </div>
+        <!--About me section-->
+        <div class="container">
+            <div class="row ">
+                <div class=" col-sm-12 col-md-5 col-lg-6 ">
+                    <img src="img/me.jpeg" class="my_photo">
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-6">
+                    <p>I have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of
+                        computer software packages (frameworks and tools) that are used in today’s technology.</p>
+                    <p> On a personal level, I am highly-motivated, result oriented,hard-working, and constantly seeking
+                        to improve my skills.I also have the ability to adapt to any type of team environment </p>
+                    <ul>
+                        <li><i class="fab fa-html5"></i></li>
+                        <li><i class="fab fa-css3"></i></li>
+                        <li><i class="fab fa-bootstrap"></i></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <br>
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-sm-12">
+                    <h1 class="section_title"> PortFolio</h1>
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <p class="lead"> Click on the images to see my side project description</p>
+                </div>
+            </div>
+        </div>
+        <div class="container project">
+            <!--1st project-->
+            <!-- Button trigger modal 1-->
+            <a data-toggle="modal" data-target="#exampleModal">
+                <img src="img/1.PNG" class="project_image img-fluid mgbot">
+            </a>
+            <!-- Modal 1 -->
+            <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title titre_modal" id="exampleModalLabel">E-solution</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-8">
+                                    <h5 class="titre_folio">Technologies used to create this web site</h5>
+                                    <p> Html <br>
+                                        CSS <br>
+                                        <a href="">Click here to see the code in github</a>
+                                    </p>
+                                </div> 
+                                <img src="img/1.PNG " class="col-4 img-fluid">
+                           </div>   
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--2nd project-->
+            <!-- Button trigger modal2 -->
+            <a  data-toggle="modal" data-target="#secondproject">
+                <img src="img/2.PNG" class="project_image img-fluid mgbot">
+            </a>
+
+            <!-- Modal2 -->
+            <div class="modal fade" id="secondproject" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title titre_modal" id="exampleModalLabel">IseAct</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-8">
+                                    <h5 class="titre_folio">Technologies used to create this web site</h5>
+                                    <p> Html <br>
+                                        CSS <br>
+                                        <a href="">Click here to see the code in github</a>
+                                    </p>
+                                </div> 
+                                <img src="img/2.PNG " class="col-4 img-fluid">
+                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--3rd project-->
+            <!-- Button trigger modal 3 -->
+            <a data-toggle="modal" data-target="#project3">
+                <img src="img/3.PNG" class="project_image img-fluid mgbot">
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title titre_modal" id="exampleModalLabel">Webworld</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-8">
+                                    <h5 class="titre_folio">Technologies used to create this web site</h5>
+                                    <p> Html <br>
+                                        CSS <br>
+                                        Bootstrap <br>
+                                        <a href="">Click here to see the code in github</a>
+                                    </p>
+                                </div> 
+                                <img src="img/3.PNG " class="col-4 img-fluid">
+                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Blog-->
+    <div id="blog">
+        <br>
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-sm-12">
+                    <h1 class="section_title"> Blog</h1>
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <p class="lead"> My journey in IT world</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-3 mgbot">
+                    <!-- tres important ces precisions selon la largeur
+                    et ne pas fixer le width-->
+                    <div class="card">
+                        <img src="img/blog1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DAY1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-sm-12 col-lg-3 mgbot">
+                    <!-- tres important ces precisions selon la largeur
+                    et ne pas fixer le width-->
+                    <div class="card">
+                        <img src="img/blog2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Day2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-sm-12 col-lg-3 mgbot">
+                    <!-- tres important ces precisions selon la largeur
+                    et ne pas fixer le width-->
+                    <div class="card">
+                        <img src="img/blog3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <br> <br>
+                <div class="col-md-6 col-sm-12 col-lg-3">
+                    <!-- tres important ces precisions selon la largeur
+                    et ne pas fixer le width-->
+                    <div class="card mgtop text-center mgbot read_more_blog ">
+
+                        <a href="blog.html" class="btn btn-primary">Read more</a>
+
+                    </div>
+                </div>
+                <br> <br> <br>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
+    <div id="contact">
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-sm-12">
+                    <br>
+                    <h1 class="section_title"> Contact <span> me</span></h1>
+                    <hr>
+                </div>
+            </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-md-4">
+                    <i class="fas fa-envelope "></i><h6>Email :</h6> <p class="contenu_contact">tlemcanichayma@gmail.com </p> 
+                    <i class="fas fa-phone-square-alt "></i><h6>Phone number :</h6><p class="contenu_contact" >(+212)6666666666</p> 
+                </div>
+                <div class="col-12 col-md-4">
+                    <h5 class="logo_contact"><span id="logo">S</span>hay</h5>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p class="text_follow"> Follow me</p> <br>
+                    <ul>
+                       <li><i class="fab fa-linkedin-in"></i></li>
+                       <li><i class="fab fa-facebook-f"></i></li>
+                       <li><i class="fab fa-github"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+    <!--footer-->
+    <footer>
+        <br>
+            <div class="container-fluid padding text-center">
+                COPYRIGHT &copy 2021 made by Shay
+            </div>
+        <br>
+    </footer>
+<!--js code-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
